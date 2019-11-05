@@ -1,0 +1,305 @@
+body {
+    height: 225vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top-black-box {
+    height: 75px;
+    background-color: black;
+    box-sizing: border-box;
+    display: flex;
+    padding-left: 150px;
+    flex-direction: row;
+    align-items: center;
+    /* position: sticky; */
+}
+
+#spacex {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    /* border: 1px solid greenyellow; */
+    margin-right: 15px;
+    color: white;
+    letter-spacing: 4px;
+}
+
+.topleft {
+    font-size: 15px;
+    color: white; 
+    margin-right: 30px;
+    /* border: 2px solid pink; */
+}
+
+.topright {
+    flex-direction: row;
+    /* border: 2px solid blue; */
+    /* justify-content: flex-end; */
+    margin-left: 30px;
+    position: relative;
+    color: gray;
+    /* font-size: small; */
+    left: 70px;
+    font-size: 12px;
+
+    
+}
+#bigimage {
+/* border: 1px solid greenyellow; */
+box-sizing: border-box;
+height:80vh;
+width: 100%;
+
+
+}
+#spacepic {
+    /* border: 2px solid red; */
+    height:80vh;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    object-fit: cover;
+    
+}
+
+#starshipbox {
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    height: 30%;
+    width: 100%;
+    position: absolute;
+    bottom: 45px;
+    color: white; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: flex-end; */
+    background-color: rgba(26, 25, 25, 0.644);
+
+    /* padding-left: 150px; */
+    /* padding-right: 150px; */
+}
+#top {
+    /* border: 2px solid yellow; */
+    height: 67%;
+    width: 67%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 30px;
+}
+#starshipupdate {
+    display: flex;
+    /* border: 1px solid turquoise; */
+    /* width: 100px; */
+    align-items: center;
+    justify-content: flex-end;
+    /* height: 30px; */
+    font-size: 35px;
+    font-weight: bold;
+    /* position: relative;
+    left: 50px; */
+    
+}
+#button-right {
+    /* border: 1px solid white; */
+    background-color: white;
+    height: 30px;
+    width: 150px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    /* align-content: center; */
+    justify-content: center;
+    align-items: center;
+}
+
+#bottom {
+    height: 33%;
+    width: 100%;
+    /* border: 2px solid purple; */
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    box-sizing: border-box;
+    /* padding-left: 180px; */
+    /* padding-right: 150px; */
+    justify-content: center;
+    background-color: rgb(46, 45, 45);
+}
+#starshipsmall {
+    border: 1px solid grey;
+    width: 26%;
+    /* margin-right: 10px; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    padding-left: 10px
+}
+#smallsat {
+    border: 1px solid grey;
+    width: 26%;
+    /* margin-right: 10px */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    padding-left: 10px
+    
+
+}
+#nasa {
+    border: 1px solid grey;
+    width: 26%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    padding-left: 10px
+
+}
+
+#spacex-designs {
+  
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+}
+
+#trio-container {
+ 
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+}
+#box-one{
+    
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 9px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+#pic1 {
+   
+    width: 85%;
+    height: auto;;
+}
+#reusable {
+    
+    height: 100px;
+    width: 85%;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+#learnmore1 {
+   
+    position: relative;
+    right: 83px;
+    font-size: small;
+    color:blue;
+}
+
+#box-two {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 9px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+#pic2 {
+    width: 85%;
+    height: auto;
+}
+#commercial {
+    height: 100px;
+    width: 85%;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+#learnmore2 {
+    position: relative;
+    right: 83px;
+    font-size: small;
+    color:blue;
+
+}
+#box-three {
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 9px grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+#pic3 {
+    width: 85%;
+    height: auto;
+}
+#life {
+    height: 100px;
+    width: 85%;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+#learnmore3 {
+    position: relative;
+    right: 83px;
+    font-size: small;
+    color:blue;
+}
+#spacemaker{
+    height: 400px;
+}
+#bottombox {
+    height: 70px;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;}
+#text-line-left{
+    display: flex;
+    align-items: center;
+
+}
+#text-line-right {
+    display: flex;
+    align-items: center;
+    color: grey;
+    font-size: x-small;
+}
+
